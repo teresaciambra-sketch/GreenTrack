@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 30px;
+  line-height: 1.6;
+  color: #243b2b;
+  background-color: #f1f8f0;
+  border: 2px solid #a7c9a5;
+  border-radius: 16px;
+}
+
+html {
+  background-color: #dcebdc;
+}
+
+h1 {
+  color: #24613e;
+  font-size: 2.3rem;
+}
+
+h1::before {
+  content: "🍃 ";
+}
+
+h2 {
+  color: #346b48;
+}
+
+a {
+  display: inline-block;
+  margin: 8px 16px 8px 0;
+  padding: 9px 14px;
+  color: #174b31;
+  background-color: #e0f0df;
+  border: 1px solid #7eae83;
+  border-radius: 8px;
+}
+
+a:hover,
+a:focus {
+  background-color: #bfe1bf;
+}
